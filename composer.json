@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "laravelLmg\\UrlScanner\\": "src/"
+      "LaravelLmg\\UrlScanner\\": "src/"
     }
   }
 }
