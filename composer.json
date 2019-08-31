@@ -1,0 +1,29 @@
+{
+  "name": "lmgphp/urlscanner",
+  "description": "地址扫描",
+  "keywords": ["url", "scanner", "csv"],
+  "license": "MIT",
+  "authors": [{
+    "name": "LMG",
+    "email": "htyzhliminggui@163.com"
+  }],
+  "support": {
+    "email": "htyzhliminggui@163.com"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.3"
+  },
+  "suggest": {
+    "league/csv": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "laravelLmg\\UrlScanner\\": "src/"
+    }
+  }
+}
